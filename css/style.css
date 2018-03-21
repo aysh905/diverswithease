@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'AvenirNextLTProRegular';
+    src: url('../fonts/AvenirNextLTProRegular.eot');
+    src: url('../fonts/AvenirNextLTProRegular.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextLTProRegular.woff2') format('woff2'),
+         url('../fonts/AvenirNextLTProRegular.woff') format('woff'),
+         url('../fonts/AvenirNextLTProRegular.ttf') format('truetype'),
+         url('../fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
+}@font-face {
+    font-family: 'AvenirNextBold';
+    src: url('../fonts/AvenirNextBold.eot');
+    src: url('../fonts/AvenirNextBold.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextBold.woff2') format('woff2'),
+         url('../fonts/AvenirNextBold.woff') format('woff'),
+         url('../fonts/AvenirNextBold.ttf') format('truetype'),
+         url('../fonts/AvenirNextBold.svg#AvenirNextBold') format('svg');
+}
+@font-face {
+    font-family: 'AvenirNextDemiBold';
+    src: url('../fonts/AvenirNextDemiBold.eot');
+    src: url('../fonts/AvenirNextDemiBold.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextDemiBold.woff2') format('woff2'),
+         url('../fonts/AvenirNextDemiBold.woff') format('woff'),
+         url('../fonts/AvenirNextDemiBold.ttf') format('truetype'),
+         url('../fonts/AvenirNextDemiBold.svg#AvenirNextDemiBold') format('svg');
+}
+body{
+  font-family: 'AvenirNextLTProRegular';
+  background: #f4f8fb none repeat scroll 0 0;
+}
+.header-wrapper {
+  background: rgba(0, 0, 0, 0) url("../images/banner.jpg") no-repeat scroll 0 0 / cover ;
+  min-height: 919px;
+}
+.sign-in-button {
+  font-size: 13px;
+  font-weight: 700;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  text-transform:uppercase;
+  background:#426df7;
+}
+.forgot-password-button {
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  background:#fff;
+  color:#2c2e3d;
+  border-color:#ccc;
+}
+.sign-in-button {
+  line-height: 2em;
+}
+.indicaors-icons > a {
+  background: #e1e8ee none repeat scroll 0 0;
+  border-radius: 30px;
+  display: inline-block;
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+.indicaors-icons > a.active {
+  background: #426DF7 none repeat scroll 0 0;
+}
+.radio-inline {
+  padding-right: 15px;
+}
+#first-step, #second-step{
+  display:none;
+}
+#first-step.active, #second-step.active{
+  display:block;
+}
+.inner-navbar {
+  background: #fff none repeat scroll 0 0;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 6px 6px 1px rgba(238,238,238,1);
+  -moz-box-shadow: 0px 6px 6px 1px rgba(238,238,238,1);
+  box-shadow: 0px 6px 6px 1px rgba(238,238,238,1);
+}
+.navbar-brand {
+  color: #08489d !important;
+  font-size: 28pt;
+  font-family: 'AvenirNextDemiBold';
+}
+.nav-item.dropdown {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-right: 15px;
+  width: 150px;
+}
+.nav-item .dropdown-toggle::after {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+.nav-item.dropdown #navbarDropdownMenuLink {
+  color: #2c2e3d;
+  font-size: 12px;
+  line-height: 2.3em;
+  text-transform: uppercase;
+  font-family: 'AvenirNextLTProRegular';
+}
+.dropdown-toggle::after{
+  border-left: 0.4em solid transparent;
+  border-right: 0.4em solid transparent;
+  border-top: 0.4em solid;
+}
+.nav-item.dropdown.show {
+  background: #08489d none repeat scroll 0 0;
+  border-color: #08489d;
+}
+.nav-item.dropdown.show #navbarDropdownMenuLink {
+ color:#fff;
+}
+.nav-item .dropdown-menu {
+  border:0;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(221,221,221,0.77);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(221,221,221,0.77);
+  box-shadow: 0px 5px 5px 0px rgba(221,221,221,0.77);
+  border-radius: 0 0 2px 2px;
+  color:#2c2e3d;
+  min-width:auto;
+  width:100%;
+}
+.dropdown-menu .dropdown-item{
+  padding: 4px 7px;
+}  
