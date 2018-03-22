@@ -295,6 +295,9 @@ select {
 	.mobile-row{
 	  margin:0;
 	}
+	.register-bs {
+	  text-align: center;
+	}
 }
 @media screen and (max-width: 991px) {	
 	.nav-item.dropdown {
