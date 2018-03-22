@@ -285,6 +285,9 @@ select {
 .register-bs {
   text-align: center;
 }
+.icons-box.icon-supplier {
+  height: 50px;
+}
 @media screen and (max-width: 767px) {
 	.navbar-brand {
 	  font-size: 19pt;
