@@ -20,23 +20,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-						 
+					<nav class="navbar navbar-toggleable-md navbar-light">					 
 						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="navbar-toggler-icon"></span>
-						</button> <a class="navbar-brand" href="#">diverswithease</a>
+						</button> 
+						<a class="navbar-brand" href="#">diverswithease</a>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="navbar-nav ml-md-auto">
 								<li class="nav-item dropdown">
 									 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Sign in</a>
-									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 										 <a class="dropdown-item" href="#">Sign in as buyer</a> 
 										 <a class="dropdown-item" href="#">Sign in as supplier</a>
 									</div>
 								</li>
 								<li class="nav-item dropdown">
 									 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Join free</a>
-									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 										 <a class="dropdown-item" href="#">Join as buyer</a> 
 										 <a class="dropdown-item" href="#">Join as supplier</a>
 									</div>
@@ -49,158 +49,172 @@
 		</div>	
 	</div>
 	<div class="container">
-		<div class="row ">
-			<div class="w-100">
-			</div>	
-			<div class="col active" id="first-step">
-			<div class="row">
-				<div class="col-md">
-					<h4 class="text-center">Complete profile (step 1 0f 2)</h4>
-					<form>
-					  <div class="form-group">
-						<label for="exampleInputEmail1">First Name *</label>
-						<input type="text" placeholder="Enter email" aria-describedby="emailHelp" id="exampleInputEmail1" class="form-control">
-					  </div>
-					  <div class="form-group">
-						<label for="exampleInputEmail1">Last Name *</label>
-						<input type="text" placeholder="Enter email" aria-describedby="emailHelp" id="exampleInputEmail1" class="form-control">
-					  </div>
-					  <div class="form-group">
-						<label for="exampleFormControlSelect1">Country</label>
-						<select id="exampleFormControlSelect1" class="form-control">
-						  <option>1</option>
-						  <option>2</option>
-						  <option>3</option>
-						  <option>4</option>
-						  <option>5</option>
-						</select>
-					  </div>
-					  <div class="form-group">
-						<label for="exampleInputPassword1">Department</label>
-						<input type="text" placeholder="Password" id="exampleInputPassword1" class="form-control">
-					  </div><div class="form-group">
-						<label for="exampleInputPassword1">Job Title</label>
-						<input type="password" placeholder="Password" id="exampleInputPassword1" class="form-control">
-					  </div>
-					  <button class="btn btn-primary sign-in-button" type="submit">Continue ></button>
-					</form>
-					<small id="required-text" class="form-text text-muted text-center">*Required fields</small>
-				</div>
-				<div class="col-md">
-				<h4 class="text-center">Feature Overview</h4>
-					<div class="row">
-						<div class="col-2">
-							<img src="images/icon-2.png">
-						</div>
-						<div class="col-8">			
-							<p class="col-heading-icons-details-signin">
-								<strong>View interactive, video content</strong>
-								Absorb relevant supplier information easily, and discover new suppliers quickly.
-							</p>
+		<div class="row">
+			<div class="col-md-10 mx-auto padding-zero">
+				<div class="row active mobile-row" id="first-step">			
+					<div class="col-md-6">
+						<div class="col-md-12 mx-auto boxed-section boxed-steps-secion">
+							<h4 class="text-center">Complete profile (step 1 0f 2)</h4>
+							<form>
+							  <div class="form-group">
+								<label for="exampleInputEmail1">First name *</label>
+								<input type="text" placeholder="John" aria-describedby="emailHelp" id="exampleInputEmail1" class="form-control">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Last name *</label>
+								<input type="text" placeholder="Doe" id="exampleInputPassword1" class="form-control">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleFormControlSelect1">Country</label>
+								<select class="form-control" id="exampleFormControlSelect1">
+								  <option>Select country</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Department</label>
+								<input type="text" placeholder="ex. Department of management" id="exampleInputPassword1" class="form-control">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Job title</label>
+								<input type="text" placeholder="ex. Manager" id="exampleInputPassword1" class="form-control">
+							  </div>
+							  <button class="btn btn-primary sign-in-button join-now-button sec-toggle" data-target="#second-step">Continue ></button>
+							</form>
+							<small id="required-text" class="form-text text-muted text-center">*Required fields</small>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-2">
-							<img src="images/icon-2.png">
-						</div>
-						<div class="col-8">			
-							<p class="col-heading-icons-details-signin">
-								<strong>View interactive, video content</strong>
-								Absorb relevant supplier information easily, and discover new suppliers quickly.
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-2">
-							<img src="images/icon-2.png">
-						</div>
-						<div class="col-8">			
-							<p class="col-heading-icons-details-signin">
-								<strong>View interactive, video content</strong>
-								Absorb relevant supplier information easily, and discover new suppliers quickly.
-							</p>
+					<div class="col-md-6">
+						<div class="col-md-12 mx-auto boxed-section boxed-steps-secion">
+						<h4 class="text-center">Title Descriptions</h4>
+							<hr>
+							<div class="row">
+								<div class="col-3">
+									<img class="icons-box" src="images/icon-step-1.png">
+								</div>
+								<div class="col-9 padding-left-zero">			
+									<p class="col-heading-icons-details-signin">
+										<strong>SEOs</strong>
+										  help the best business videos move to the most advantageous display positions. In turn the right products and services quickly find the right buyers, saving everyone time and money. 
+									</p>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-3">
+									<img class="icons-box" src="images/icon-step-2.png">
+								</div>
+								<div class="col-9 padding-left-zero">			
+									<p class="col-heading-icons-details-signin">
+										<strong>Creators of Opportunity</strong>
+										 pursue value, beyond just lowest price, and tap up the right suppliers on the basis of merit, not just size and strength. 
+									</p>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-3">
+									<img class="icons-box" src="images/icon-step-3.png">
+								</div>
+								<div class="col-9 padding-left-zero">			
+									<p class="col-heading-icons-details-signin">
+										<strong>Chief Decision Makers</strong>
+										 tip the scale and 
+										give suppliers real insight into the immediate needs and interests of the diverswithease network of potential buyers.
+									</p>
+								</div>
+							</div>
+							<hr>
 						</div>
 					</div>
 				</div>
+				<div class="row mobile-row" id="second-step">			
+					<div class="col-md-12">
+						<div class="col-md-12 mx-auto boxed-section boxed-steps-secion">
+							<h4>Final Step!</h4>
+							<hr>
+							<div class="row">
+								 <div class="col-3 col-sm-2 padding-right-zero">
+									<img class="steps-imgs" src="images/step-1-img.png">
+								 </div>
+								 <div class="col-9 col-sm-10 step-per-desp">
+									<p>I’d like to tap into the capabilities and innovations of the supplier community.</p>
+									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
+									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
+								 </div>
+							</div>
+							<hr>
+							<div class="row">
+								 <div class="col-3 col-sm-2 padding-right-zero">
+									<img class="steps-imgs" src="images/step-2-img.png">
+								 </div>
+								 <div class="col-9 col-sm-10 step-per-desp">
+									<p>I link suppliers to business needs for my department</p>
+									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
+									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
+								 </div>
+							</div>
+							<hr>
+							<div class="row">
+								 <div class="col-3 col-sm-2 padding-right-zero">
+									<img class="steps-imgs" src="images/step-3-img.png">
+								 </div>
+								 <div class="col-9 col-sm-10 step-per-desp">
+									<p>My day-to-day activities include managing people, partnerships, and fiscal performance.</p>
+									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
+									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
+								 </div>
+							</div>
+							<hr>
+							<div class="row">
+								 <div class="col-3 col-sm-2 padding-right-zero">
+									<img class="steps-imgs" src="images/step-4-img.png">
+								 </div>
+								 <div class="col-9 col-sm-10 step-per-desp">
+									<p>I see benefit in tuning in to the products and serves emerging from minority- and women-owned businesses.</p>
+									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
+									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
+								 </div>
+							</div>
+							<hr>
+							<div class="row">
+								 <div class="col-5">
+									<a class="btn btn-primary sign-in-button go-back-button sec-toggle active" href="" data-target="#first-step">&lt; Back</a>
+								 </div>
+								 <div class="col-2">
+								 </div>
+								 <div class="col-5">
+									<a class="btn btn-primary sign-in-button" href="congratulations.html">finish</a>
+								 </div>
+								 
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-12" id="second-step">
-				 <h4>Final Step!</h4>
-				 <hr>
-				 <div class="row">
-					 <div class="col-2">
-						<img src="images/img-buyers-list.png">
-					 </div>
-					 <div class="col-8">
-						<p>I would like to tap into the capabilities and innovations of the supplier community.</p>
-						 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-	
-					 </div>
-					 
-				 </div>
-				 <hr>
-				 <div class="row">
-					 <div class="col-2">
-						<img src="images/img-buyers-list.png">
-					 </div>
-					 <div class="col-8">
-						<p>I would like to tap into the capabilities and innovations of the supplier community.</p>
-						 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-	
-					 </div>
-					 
-				 </div>
-				 <hr>
-				 <div class="row">
-					 <div class="col-2">
-						<img src="images/img-buyers-list.png">
-					 </div>
-					 <div class="col-8">
-						<p>I would like to tap into the capabilities and innovations of the supplier community.</p>
-						 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-	
-					 </div>
-					 
-				 </div>
-				 <hr>
-				 <div class="row">
-					 <div class="col-2">
-						<img src="images/img-buyers-list.png">
-					 </div>
-					 <div class="col-8">
-						<p>I would like to tap into the capabilities and innovations of the supplier community.</p>
-						 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-						<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-	
-					 </div>
-					 
-				 </div>
-				 <hr>
-				 <div class="row">
-					 <div class="col-5">
-						<a href="#" class="btn btn-primary sign-in-button">< Back</a>
-					 </div>
-					 <div class="col-2">
-					 </div>
-					 <div class="col-5">
-						<a href="#" class="btn btn-primary sign-in-button">< finish</a>
-					 </div>
-					 
-				 </div>
-				 
-			 </div>
-			 <div class="w-100"></div>
-			 <div class="col">
+				<div class="col">
 				 <div class="indicaors-icons text-center">
-					<a data-target="#first-step" href="" class="active sec-toggle"></a>
-					<a data-target="#second-step" href="" class="sec-toggle"></a>
+					<a class="sec-toggle active" href="" data-target="#first-step"></a>
+					<a class="sec-toggle" href="" data-target="#second-step"></a>
 				 </div>
 			 </div>
-			
+			</div>
+			 <div class="w-100"></div>
+
 		</div>
+		<footer>
+		<hr>
+			<div class="row">
+				<div class="col">
+					<p class="footer-logo">diverswithease</p>
+				</div>
+				<div class="col">
+					<p class="footer-copyrights text-right">Copyright © 2013 All Rights Reserved</p>
+				</div>
+			</div>	
+		</footer>
 		
 	</div>	
 
