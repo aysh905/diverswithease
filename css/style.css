@@ -282,7 +282,9 @@ select {
 .boxed-congrats {
   min-height: 411px;
 }
-
+.register-bs {
+  text-align: center;
+}
 @media screen and (max-width: 767px) {
 	.navbar-brand {
 	  font-size: 19pt;
@@ -294,9 +296,6 @@ select {
 @media screen and (max-width: 767px) {
 	.mobile-row{
 	  margin:0;
-	}
-	.register-bs {
-	  text-align: center;
 	}
 }
 @media screen and (max-width: 991px) {	
