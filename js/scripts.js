@@ -8,3 +8,7 @@ $(function(){
 		$(".sec-toggle").toggleClass("active");
 	});
 });
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
