@@ -165,9 +165,6 @@ body{
   line-height: 1.8em;
   margin: 0;
 }
-.col-heading-icons-details-signin strong {
-  font-family: "AvenirNextLTProRegular";
-}
 .form-control {
   background-color: #f4f8fb;
   height: 50px;
