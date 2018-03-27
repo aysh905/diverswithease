@@ -207,7 +207,7 @@
 								</div>
 								
 							</div>
-							<hr>
+							<hr style="margin-bottom: 0px;">
 							<div class="row">
 								<div class="col-md-12">
 									<div class="custom-file text-center">
@@ -216,9 +216,85 @@
 									</div>
 									
 								</div>	
+							</div>
+							<hr>
+							<div class="row">
+								<div class="col-md-12">
+									<p class="col-heading-icons-details-signin">
+										<strong>Business Size</strong>
+										Determined by NAICS code and number of employees or annual sales. For more information, go to <br>
+										<a href="">www.sba.gov/size</a>
+									</p>									
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label for="exampleInputPassword1">Primary NAICS code</label>
+									<input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+								</div>
+								<div class="form-group col-md-2">
+									<label for="exampleInputPassword1" style="font-size:14px;">No. of employees</label>
+									<input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+								</div>
+								<div class="form-group col-md-4">
+									<label for="exampleInputPassword1">Annual revenue</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+									  <option>Select</option>
+									  <option>$0 - $1M</option>
+									  <option>$1 - $5M</option>
+									  <option>$5 - $10M</option>
+									  <option>$10 - $25M</option>
+									  <option>$25 - $50M</option>
+									  <option>$50M - $100M</option>
+									  <option>$100M - $150M</option>
+									  <option>$150M+</option>
+									</select>
+								</div>
+								<div class="form-group col-md-2">
+									<label for="exampleInputPassword1"">Business size</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+									  <option>Small</option>
+									  <option>-</option>
+									  <option>-</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p class="col-heading-icons-details-signin">
+										<strong>Supplier Verification:</strong>
+										Under 15 U.S Code 645 (d) – misrepresentation -- whoever misrepresents the status of any concern or person as a “small business concern”, a “qualified HUBZone small business concern”, a “small business concern owned and controlled by socially and economically disadvantaged individuals”, or a “small business concern owned and controlled by women”, in order to obtain for oneself or another any federal contract or subcontract shall (A) be punished by a fine of not more than $500,000 or by imprisonment for not more than 10 years, or both; (B) be subject to the administrative remedies prescribed by the Program Fraud Civil Remedies Act of 1986 (31 U.S.C. 3801–3812); (C) be subject to suspension and debarment as specified in subpart 9.4 of title 48, Code of Federal Regulations (or any successor regulation); and (D) be ineligible for participation in any program or activity conducted under the authority of this chapter or the Small Business Investment Act of 1958 (15 U.S.C. 661 et seq.) for a period not to exceed 3 years.
+									</p>
+									<p>
+										<div class="i_bx row">
+										<div class="checkbox-padding">
+											<input type="checkbox" id="checkbox-15">
+											<label class="label-cbx" for="checkbox-15"></label>
+										</div>	
+										<div class="col-10 col-md-11">
+											<label class="label-txt" for="checkbox-15">I hereby certifies that I am authorized to sign on behalf of the Company listed above and that all information above is true and accurate to the best of my knowledge.</label>
+										</div>
+										</div>
+									</p>
+								</div>
+							</div>
+							<hr>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label for="exampleInputEmail1">Prepared by</label>
+									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+								</div>
+								<div class="form-group col-md-4">
+									<label for="exampleInputEmail1">Title</label>
+									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+								</div>
+								<div class="form-group col-md-4">
+									<label for="exampleInputEmail1" style="opacity: 0;">dummy</label>
+									<a data-target="#second-step" class="sec-toggle btn btn-primary sign-in-button">Save & Continue ></a>
+								</div>
 							</div>	
 							</form>
-							<small id="required-text" class="form-text text-muted text-center">*Required fields</small>
+							<small id="required-text" class="form-text text-muted text-center">All fields are required</small>
 						</div>
 					</div>
 					
@@ -266,7 +342,7 @@
 									<img class="steps-imgs" src="images/step-4-img.png">
 								 </div>
 								 <div class="col-9 col-sm-10 step-per-desp">
-									<p>I see benefit in tuning in to the products and serves emerging from minority- and women-owned businesses.</p>
+									<p>I see benefit in tuning in to the products and serves emerging from minority- and women-owned businesses.</p>
 									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
 									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
 								 </div>
