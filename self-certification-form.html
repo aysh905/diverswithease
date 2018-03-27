@@ -300,65 +300,74 @@
 					
 				</div>
 				<div class="row mobile-row" id="second-step">			
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<div class="col-md-12 mx-auto boxed-section boxed-steps-secion">
-							<h4>Final Step!</h4>
-							<hr>
-							<div class="row">
-								 <div class="col-3 col-sm-2 padding-right-zero">
-									<img class="steps-imgs" src="images/step-1-img.png">
-								 </div>
-								 <div class="col-9 col-sm-10 step-per-desp">
-									<p>I’d like to tap into the capabilities and innovations of the supplier community.</p>
-									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-								 </div>
-							</div>
-							<hr>
-							<div class="row">
-								 <div class="col-3 col-sm-2 padding-right-zero">
-									<img class="steps-imgs" src="images/step-2-img.png">
-								 </div>
-								 <div class="col-9 col-sm-10 step-per-desp">
-									<p>I link suppliers to business needs for my department</p>
-									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-								 </div>
-							</div>
-							<hr>
-							<div class="row">
-								 <div class="col-3 col-sm-2 padding-right-zero">
-									<img class="steps-imgs" src="images/step-3-img.png">
-								 </div>
-								 <div class="col-9 col-sm-10 step-per-desp">
-									<p>My day-to-day activities include managing people, partnerships, and fiscal performance.</p>
-									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-								 </div>
-							</div>
-							<hr>
-							<div class="row">
-								 <div class="col-3 col-sm-2 padding-right-zero">
-									<img class="steps-imgs" src="images/step-4-img.png">
-								 </div>
-								 <div class="col-9 col-sm-10 step-per-desp">
-									<p>I see benefit in tuning in to the products and serves emerging from minority- and women-owned businesses.</p>
-									 <label class="radio-inline"><input type="radio" name="optradio"> Yes</label>
-									<label class="radio-inline"><input type="radio" name="optradio"> No</label>
-								 </div>
-							</div>
-							<hr>
-							<div class="row">
-								 <div class="col-5">
-									<a class="btn btn-primary sign-in-button go-back-button sec-toggle active" href="" data-target="#first-step">&lt; Back</a>
-								 </div>
-								 <div class="col-2">
-								 </div>
-								 <div class="col-5">
-									<a class="btn btn-primary sign-in-button" href="congratulations.html">finish</a>
-								 </div>
-								 
-							</div>
+							<h4 class="text-center">Complete profile (step 1 of 2)</h4>
+							<form>
+							  <div class="form-group">
+								<label for="exampleInputEmail1">First name *</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Last name *</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Doe">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleFormControlSelect1">Country</label>
+								<select id="exampleFormControlSelect1" class="form-control">
+								  <option>Select country</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Department</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Department of management">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Job title</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Manager">
+							  </div>
+							  <button data-target="#second-step" class="btn btn-primary sign-in-button join-now-button sec-toggle">Continue &gt;</button>
+							</form>
+							<small class="form-text text-muted text-center" id="required-text">*Required fields</small>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-12 mx-auto boxed-section boxed-steps-secion">
+							<h4 class="text-center">Complete profile (step 1 of 2)</h4>
+							<form>
+							  <div class="form-group">
+								<label for="exampleInputEmail1">First name *</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Last name *</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Doe">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleFormControlSelect1">Country</label>
+								<select id="exampleFormControlSelect1" class="form-control">
+								  <option>Select country</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Department</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Department of management">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Job title</label>
+								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Manager">
+							  </div>
+							  <button data-target="#second-step" class="btn btn-primary sign-in-button join-now-button sec-toggle">Continue &gt;</button>
+							</form>
+							<small class="form-text text-muted text-center" id="required-text">*Required fields</small>
 						</div>
 					</div>
 				</div>
